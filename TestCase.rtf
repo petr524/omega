@@ -1,0 +1,137 @@
+{\rtf1\ansi\ansicpg1250\deff0\nouicompat\deflang1029\deflangfe1029{\fonttbl{\f0\froman\fprq2\fcharset238 Times New Roman;}{\f1\fswiss\fprq2\fcharset238 Calibri;}{\f2\fswiss\fprq2\fcharset0 Calibri;}{\f3\fswiss\fprq2 Calibri;}{\f4\fmodern JetBrains Mono;}{\f5\fnil\fcharset238 Arial;}}
+{\colortbl ;\red0\green0\blue0;\red86\green168\blue245;\red0\green0\blue255;}
+{\*\generator Riched20 10.0.19041}{\*\mmathPr\mdispDef1\mwrapIndent1440 }\viewkind4\uc1\trowd\trgaph10\trleft30\trrh425\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clvertalb\cellx13010 
+\pard\intbl\nowidctlpar\hyphpar0\qj\b\f0\fs28\lang1033  \b0\fs24\cell\row\trowd\trgaph10\trleft30\trrh551\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clvertalb\cellx13010 
+\pard\intbl\nowidctlpar\hyphpar0\qc\b\fs40\par
+SPSE Jecna Test Case \b0\fs24\par
+
+\pard\intbl\nowidctlpar\hyphpar0\ri-1800\qj\b\fs40\cell\row\trowd\trgaph10\trleft30\trrh586\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx6379\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrt\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx13010 
+\pard\intbl\nowidctlpar\hyphpar0\li120\cf1\f1\fs24 Test Case ID: \b0\f2 Omega_1\f1\cell 
+\pard\intbl\nowidctlpar\hyphpar0\qj\b Test Designed by: \b0\f2 Petr B\f1\lang1029 ej\'e8ek \f2\lang1033\cell\row\trowd\trgaph10\trleft30\trrh486\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx13010 
+\pard\intbl\nowidctlpar\hyphpar0\li120\b Test Name: \b0 Test z\'e1kladn\'ed funk\f1\'e8nosti aplikace pro p\'f8edpov\'ec\'ef filmov\f2\'e9ho hodnocen\'ed\f1\lang1029 .\f2\lang1033\cell\row\trowd\trgaph10\trleft30\trrh741\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx13010 
+\pard\intbl\nowidctlpar\hyphpar0\li120\b Brief description: \b0 Otestovat kompletn\'ed funk\f1\'e8nost aplikace pro p\'f8edpov\'ec\'ef filmov\f2\'e9ho hodnocen\'ed. Test zahrnuje spu\f1\'9at\'ecn\f2\'ed aplikace, ov\f1\'ec\'f8en\f2\'ed spr\'e1vn\'e9ho na\f1\'e8ten\f2\'ed dat a mapping\f1\'f9, zad\f2\'e1n\'ed vstupn\'edch parametr\f1\'f9 (d\f2\'e9lka filmu, rok, po\f1\'e8et hodnocen\f2\'ed, v\'fdb\f1\'ecr zem\'ec a \'9e\f2\'e1nru), v\'fdb\f1\'ecr modelu a kontrolu, \'9ee aplikace vr\f2\'e1t\'ed p\f1\'f8edpov\'ec\'ef ve spr\f2\'e1vn\'e9m form\'e1tu. U ka\f1\'9ed\f2\'e9ho kroku se ov\f1\'ec\'f8uje, \'9ee data jsou spr\f2\'e1vn\f1\'ec zpracov\f2\'e1na, a \f1\'9ee v\f2\'fdsledn\'fd v\'fdstup odpov\'edd\'e1 o\f1\'e8ek\f2\'e1v\'e1n\'edm.\f1\cell\row\trowd\trgaph10\trleft30\trrh816\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx13010 
+\pard\intbl\nowidctlpar\hyphpar0\qj\b   Pre-conditions: \b0  Aplikace je spu\'9at\'ecna pomoc\f2\'ed p\f1\'f8\f2\'edkazu `streamlit run app.py`.\par
+- Ve slo\f1\'9ece projektu je dostupn\f2\'fd soubor `final_data_ordered.csv` se spr\'e1vn\'fdm po\f1\'f8ad\f2\'edm sloupc\f1\'f9.\par
+- Ve slo\'9ece `models` jsou um\f2\'edst\f1\'ecny modelov\f2\'e9 soubory (nap\f1\'f8. `omega_lin_model.dat` apod.).\par
+- V\'9aechny z\f2\'e1vislosti (Python, streamlit, pandas, scikit-learn, tensorflow-cpu atd.) jsou nainstalov\'e1ny.\f1\cell\row\trowd\trgaph10\trleft30\trrh839\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf1\clbrdrr\brdrw20\brdrs\brdrcf1\clbrdrb\brdrw20\brdrs\brdrcf1 \cellx13010 
+\pard\intbl\nowidctlpar\hyphpar0\b   Dependencies and Requirements:\b0  - Software: Python 3.7\f3\endash 3.9, Streamlit, Pandas, scikit-learn, TensorFlow (nebo tensorflow-cpu), a dal\f1\'9a\f2\'ed knihovny uveden\'e9 v `requirements.txt`.\par
+- P\f1\'f8\f2\'edstup k termin\'e1lu (bez IDE) \f3\endash  aplikace se spou\f1\'9at\f2\'ed pomoc\'ed p\f1\'f8\f2\'edkazu `streamlit run app.py`.\f1\cell\row 
+\pard\nowidctlpar\hyphpar0\sl-200\slmult0\par
+
+\pard\nowidctlpar\hyphpar0\sl-342\slmult0\par
+\trowd\trgaph10\trrh336\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clvertalc\clshdng2000\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrt\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx658\clvertalc\clshdng2000\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrt\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx3755\clvertalc\clshdng2000\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrt\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx7017\clvertalc\clshdng2000\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrt\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx9995\clvertalc\clshdng2000\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrt\brdrw10\brdrs\brdrcf1\clbrdrr\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx13038 
+\pard\intbl\nowidctlpar\hyphpar0\sl-258\slmult0\qc\b Step\b0\cell 
+\pard\intbl\nowidctlpar\hyphpar0\li100\sl-258\slmult0\b Test Steps\b0\cell\b Test Data\b0\cell\b Expected Result\b0\cell\b Notes\b0\cell\row\trowd\trgaph10\trrh572\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx658\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx3755\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx7017\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx9995\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrr\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx13038 
+\pard\intbl\nowidctlpar\hyphpar0\sl-264\slmult0\qc\charscalex99 1\charscalex0\cell 
+\pard\intbl\nowidctlpar\hyphpar0 Spu\'9at\'ecn\f2\'ed aplikace\tab\f1\cell P\'f8\f2\'edkaz: streamlit run app.py\tab\f1\cell 
+\pard\intbl\box\brdrdash\brdrw0 \nowidctlpar\hyphpar0\cf0\f4\fs20 Aplikace se na\f5\'e8\f2 te v prohl\'ed\f1\'9ee\'e8i a zobraz\f2\'ed n\'e1zev "P\f1\'f8edpov\'ec\'ef filmov\f2\'e9ho hodnocen\'ed".\cf1\f1\fs24\cell 
+\pard\intbl\box\brdrdash\brdrw0 \nowidctlpar\hyphpar0  \f2 na tomto linku {\cf2\f4\fs20{\field{\*\fldinst{HYPERLINK http://localhost:8501 }}{\fldrslt{http://localhost:8501\ul0\cf0}}}}\f1\fs24\cell\row\trowd\trgaph10\trrh573\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx658\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx3755\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx7017\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx9995\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrr\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx13038 
+\pard\intbl\nowidctlpar\hyphpar0\sl-264\slmult0\qc\charscalex99 2\charscalex0\cell 
+\pard\intbl\nowidctlpar\hyphpar0 Kontrola zobrazen\f2\'ed vstupn\'edch pol\'ed\tab\f1\cell Zkontrolujte, \'9ee jsou zobrazeny pole: "D\f2\'e9lka filmu (v minut\'e1ch)", "Rok filmu", "Po\f1\'e8et hodnocen\f2\'ed", selectboxy "Vyberte zemi" a "Vyberte \f1\'9e\f2\'e1nr".\tab\f1\cell 
+\pard\intbl\itap2\widctlpar\lang1029\nestcell{\*\nesttableprops\trowd\trgaph15\trrh-10\trpaddl15\trpaddr15\trpaddfl3\trpaddfr3
+\clvertalc\cellx100\nestrow}{\nonesttables\par}
+
+\pard\intbl\widctlpar V\'9aechna vstupn\f2\lang1033\'ed pole jsou viditeln\'e1 a selectboxy zobrazuj\'ed textov\'e9 n\'e1zvy zem\'ed a \f1\'9e\f2\'e1nr\f1\'f9.\lang1029\par
+
+\pard\intbl\itap2\widctlpar\nestcell{\*\nesttableprops\trowd\trgaph15\trrh879\trpaddl15\trpaddr15\trpaddfl3\trpaddfr3
+\clvertalc\cellx7544\nestrow}{\nonesttables\par}
+
+\pard\intbl\nowidctlpar\hyphpar0\v\par
+\v0\f2\lang1033\cell\f1\cell\trowd\trgaph10\trrh573\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx658\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx3755\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx7017\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx9995\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrr\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx13038\row\trowd\trgaph10\trrh515\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx658\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx3755\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx7017\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx9995\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrr\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx13038 
+\pard\intbl\nowidctlpar\hyphpar0\qc 3\cell 
+\pard\intbl\nowidctlpar\hyphpar0 Zad\f2\'e1n\'ed hodnot pro film\tab\f1\cell D\f2\'e9lka = 120 minut, Rok = 2005, Po\f1\'e8et hodnocen\f2\'ed = 3500\tab\f1\cell 
+\pard\intbl\itap2\nowidctlpar\hyphpar0\lang1029\nestcell{\*\nesttableprops\trowd\trgaph15\trrh-10\trpaddl15\trpaddr15\trpaddfl3\trpaddfr3
+\clvertalc\cellx110\nestrow}{\nonesttables\par}
+
+\pard\intbl\nowidctlpar\hyphpar0\par
+
+\pard\intbl\itap2\nowidctlpar\hyphpar0\f2\lang1033 Hodnoty jsou spr\'e1vn\f1\'ec zobrazeny ve vstupn\f2\'edch pol\'edch.\f1\lang1029\nestcell{\*\nesttableprops\trowd\trgaph15\trrh586\trpaddl15\trpaddr15\trpaddfl3\trpaddfr3
+\clvertalc\cellx4692\nestrow}{\nonesttables\par}
+
+\pard\intbl\nowidctlpar\hyphpar0\f2\lang1033\cell\f1\cell\trowd\trgaph10\trrh515\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx658\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx3755\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx7017\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx9995\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrr\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx13038\row\trowd\trgaph10\trrh560\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx658\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx3755\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx7017\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx9995\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrr\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx13038 
+\pard\intbl\nowidctlpar\hyphpar0\qc 4\cell 
+\pard\intbl\nowidctlpar\hyphpar0 V\f2\'fdb\f1\'ecr zem\'ec\tab\cell Vyberte z rozbalovac\f2\'ed nab\'eddky "cesko" (p\f1\'f8\f2\'edpadn\f1\'ec podle ru\'e8n\'ec definovan\f2\'e9ho mappingu: nap\f1\'f8. "cesko": 1)\tab\cell V selectboxu se zobraz\f2\'ed "cesko" a intern\f1\'ec se p\'f8i\'f8ad\f2\'ed odpov\'eddaj\'edc\'ed \f1\'e8\f2\'edseln\'e9 ID.\f1\cell\cell\row\trowd\trgaph10\trrh825\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1 \cellx658\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1 \cellx3755\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1 \cellx7017\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1 \cellx9995\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrr\brdrw10\brdrs\brdrcf1 \cellx13038 
+\pard\intbl\nowidctlpar\hyphpar0\qc 5\cell 
+\pard\intbl\nowidctlpar\hyphpar0 V\f2\'fdb\f1\'ecr \'9e\f2\'e1nru\tab\f1\cell Vyberte z rozbalovac\f2\'ed nab\'eddky "drama" (nap\f1\'f8. "drama": 1)\tab\cell V selectboxu se zobraz\f2\'ed "drama" a intern\f1\'ec se p\'f8i\'f8ad\f2\'ed odpov\'eddaj\'edc\'ed \f1\'e8\f2\'edseln\'e9 ID.\f1\cell\cell\row\trowd\trgaph10\trrh515\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx658\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx3755\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx7017\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx9995\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrr\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx13038 
+\pard\intbl\nowidctlpar\hyphpar0\cell\cell\cell\cell\cell\row 
+\pard\nowidctlpar\hyphpar0\sl-268\slmult0\cf0\f0\par
+\par
+\trowd\trgaph10\trrh336\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clvertalc\clshdng2000\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrt\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx658\clvertalc\clshdng2000\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrt\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx3755\clvertalc\clshdng2000\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrt\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx7017\clvertalc\clshdng2000\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrt\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx9995\clvertalc\clshdng2000\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrt\brdrw10\brdrs\brdrcf1\clbrdrr\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx13038 
+\pard\intbl\nowidctlpar\hyphpar0\sl-258\slmult0\qc\cf1\b\f1 Step\b0\cell 
+\pard\intbl\nowidctlpar\hyphpar0\li100\sl-258\slmult0\b Test Steps\b0\cell\b Test Data\b0\cell\b Expected Result\b0\cell\b Notes\b0\cell\row\trowd\trgaph10\trrh572\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx658\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx3755\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx7017\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx9995\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrr\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx13038 
+\pard\intbl\nowidctlpar\hyphpar0\sl-264\slmult0\qc\charscalex99 6\charscalex0\cell 
+\pard\intbl\nowidctlpar\hyphpar0 V\f2\'fdb\f1\'ecr modelu\tab\cell Vyberte model "Linear Regression" z bo\'e8n\f2\'edho panelu (pot\'e9 otestujte i dal\f1\'9a\f2\'ed modely)\tab\f1\cell V bo\'e8n\f2\'edm panelu se zobraz\'ed vybran\'fd model.\cell  \cell\row\trowd\trgaph10\trrh573\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx658\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx3755\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx7017\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx9995\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrr\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx13038 
+\pard\intbl\nowidctlpar\hyphpar0\sl-264\slmult0\qc\charscalex99 7\charscalex0\cell 
+\pard\intbl\nowidctlpar\hyphpar0  Odesl\'e1n\'ed vstupn\'edch dat\tab\cell Klikn\f1\'ecte na tla\'e8\f2\'edtko "P\f1\'f8edpov\'ecd\'ect hodnocen\f2\'ed"\tab\cell 
+\pard\intbl\itap2\nowidctlpar\hyphpar0\f1\lang1029\nestcell{\*\nesttableprops\trowd\trgaph15\trpaddl15\trpaddr15\trpaddfl3\trpaddfr3
+\clvertalc\cellx145\nestrow}{\nonesttables\par}
+
+\pard\intbl\itap2\widctlpar\nestcell{\*\nesttableprops\trowd\trgaph15\trrh-10\trpaddl15\trpaddr15\trpaddfl3\trpaddfr3
+\clvertalc\cellx100\nestrow}{\nonesttables\par}
+
+\pard\intbl\widctlpar Aplikace sestav\f2\lang1033\'ed vstupn\'ed DataFrame s p\f1\'f8esn\f2\'fdmi sloupci: ['rok', 'delka', 'hodnoceni_pocet', 'zanr', 'zeme'] a p\f1\'f8ed\f2\'e1 jej modelu.\f1\lang1029\par
+
+\pard\intbl\itap2\widctlpar\nestcell{\*\nesttableprops\trowd\trgaph15\trrh879\trpaddl15\trpaddr15\trpaddfl3\trpaddfr3
+\clvertalc\cellx7544\nestrow}{\nonesttables\par}
+
+\pard\intbl\nowidctlpar\hyphpar0\v\par
+\v0\f2\lang1033\cell\f1\cell\trowd\trgaph10\trrh573\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx658\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx3755\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx7017\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx9995\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrr\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx13038\row\trowd\trgaph10\trrh515\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx658\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx3755\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx7017\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx9995\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrr\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx13038 
+\pard\intbl\nowidctlpar\hyphpar0\qc 8\cell 
+\pard\intbl\nowidctlpar\hyphpar0  \par
+
+\pard\intbl\itap2\nowidctlpar\hyphpar0\lang1029\nestcell{\*\nesttableprops\trowd\trgaph15\trpaddl15\trpaddr15\trpaddfl3\trpaddfr3
+\clvertalc\cellx110\nestrow}{\nonesttables\par}
+
+\pard\intbl\nowidctlpar\hyphpar0\par
+
+\pard\intbl\itap2\nowidctlpar\hyphpar0 Kontrola p\'f8edpov\'ecdi\tab\nestcell{\*\nesttableprops\trowd\trgaph15\trpaddl15\trpaddr15\trpaddfl3\trpaddfr3
+\clvertalc\cellx2510\nestrow}{\nonesttables\par}
+
+\pard\intbl\nowidctlpar\hyphpar0\f2\lang1033\cell Sledujte, zda aplikace zobraz\'ed v\'fdstup ve form\'e1tu "P\f1\'f8edpov\'eczen\f2\'e9 hodnocen\'ed: XX.XX%"\tab\cell 
+\pard\intbl\itap2\nowidctlpar\hyphpar0\f1\lang1029\nestcell{\*\nesttableprops\trowd\trgaph15\trrh-10\trpaddl15\trpaddr15\trpaddfl3\trpaddfr3
+\clvertalc\cellx110\nestrow}{\nonesttables\par}
+
+\pard\intbl\nowidctlpar\hyphpar0 Model vr\f2\lang1033\'e1t\'ed p\f1\'f8edpov\'ec\'ef, nap\'f8. "P\'f8edpov\'eczen\f2\'e9 hodnocen\'ed: 68.50%".\f1\lang1029\par
+
+\pard\intbl\itap3\nowidctlpar\hyphpar0\nestcell{\*\nesttableprops\trowd\trgaph15\trpaddl15\trpaddr15\trpaddfl3\trpaddfr3
+\clvertalc\cellx110\nestrow}{\nonesttables\par}
+
+\pard\intbl\itap2\nowidctlpar\hyphpar0\par
+
+\pard\intbl\itap3\nowidctlpar\hyphpar0\nestcell{\*\nesttableprops\trowd\trgaph15\trpaddl15\trpaddr15\trpaddfl3\trpaddfr3
+\clvertalc\cellx7848\nestrow}{\nonesttables\par}
+
+\pard\intbl\itap2\nowidctlpar\hyphpar0\nestcell{\*\nesttableprops\trowd\trgaph15\trrh586\trpaddl15\trpaddr15\trpaddfl3\trpaddfr3
+\clvertalc\cellx4692\nestrow}{\nonesttables\par}
+
+\pard\intbl\nowidctlpar\hyphpar0\f2\lang1033\cell\cell\trowd\trgaph10\trrh515\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx658\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx3755\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx7017\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx9995\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrr\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx13038\row\trowd\trgaph10\trrh885\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx658\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx3755\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx7017\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx9995\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrr\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx13038 
+\pard\intbl\nowidctlpar\hyphpar0\qc 9\cell 
+\pard\intbl\nowidctlpar\hyphpar0 Test opakov\'e1n\'ed s jin\'fdmi modely\tab\f1\cell Opakujte kroky 6-8 pro "Random Forest Regressor", "Extra Tree Regressor" a "Neuron"\tab\cell Ka\'9ed\f2\'fd model vr\'e1t\'ed svou p\f1\'f8edpov\'ec\'ef, kter\f2\'e1 se li\f1\'9a\f2\'ed dle modelu.\f1\cell\cell\row\trowd\trgaph10\trrh515\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx658\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx3755\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx7017\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx9995\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrr\brdrw10\brdrs\brdrcf1\clbrdrb\brdrw10\brdrs\brdrcf1 \cellx13038 
+\pard\intbl\nowidctlpar\hyphpar0\qc\f2 10\f1\cell 
+\pard\intbl\nowidctlpar\hyphpar0 Test opakovan\f2\'e9ho spu\f1\'9at\'ecn\f2\'ed\tab\cell Ukon\f1\'e8ete aplikaci a znovu ji spus\'9dte.\tab\f2\cell\f1\lang1029 P\'f8i nov\f2\lang1033\'e9m spu\f1\'9at\'ecn\f2\'ed se mappingy a vstupn\'ed data zobraz\'ed konzistentn\f1\'ec.\f2\cell\cell\row\trowd\trgaph10\trrh515\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1 \cellx658\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1 \cellx3755\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1 \cellx7017\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1 \cellx9995\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf1\clbrdrr\brdrw10\brdrs\brdrcf1 \cellx13038 
+\pard\intbl\nowidctlpar\hyphpar0\qc\f1\cell 
+\pard\intbl\nowidctlpar\hyphpar0\cell\f2\cell\f1\lang1029\cell\f2\lang1033\cell\row 
+\pard\nowidctlpar\hyphpar0\sl-268\slmult0\cf0\f0\par
+}
+ 

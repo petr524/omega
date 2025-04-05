@@ -35,7 +35,7 @@ def save_urls(urls, csv_file):
 
 def crawl_csfd_random(
         output_csv=r"C:\pv\Omega\csfd_random_links.csv",
-        max_films=1500,
+        max_films=9000,
         max_attempts=100000
 ):
     """
